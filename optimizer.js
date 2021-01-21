@@ -36,7 +36,7 @@ const main = async () => {
         .webp({lossless: false})
         .toFile(`${outFilePath}.webp`);
         
-        // png - https://sharp.pixelplumbing.com/api-output#png
+      // png - https://sharp.pixelplumbing.com/api-output#png
       await sharp(filePath)
         .png({quality: 100})
         .toFile(`${outFilePath}.png`);
