@@ -35,9 +35,11 @@ const main = async () => {
       await sharp(filePath)
         .webp({lossless: false})
         .toFile(`${outFilePath}.webp`);
-      
-      // png - https://sharp.pixelplumbing.com/api-output#png
-      await sharp(filePath).toFile(`${outFilePath}.png`);
+        
+        // png - https://sharp.pixelplumbing.com/api-output#png
+      await sharp(filePath)
+        .png({quality: 100})
+        .toFile(`${outFilePath}.png`);
     }
   }
 
