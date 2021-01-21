@@ -2,9 +2,10 @@
   "name": "image-optimizer",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "optimizer.js",
   "scripts": {
-    "start": "node main.js"
+    "optimize": "node optimizer.js",
+    "prepare": "mkdir _input && mkdir _output"
   },
   "author": "",
   "license": "ISC",
