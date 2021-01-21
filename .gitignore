@@ -1,5 +1,3 @@
 node_modules/
-_input/**/**.*
-_output/**.*
-_output/**.*
-_output/**.*
+_input
+_output
