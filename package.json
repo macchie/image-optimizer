@@ -4,7 +4,7 @@
   "description": "",
   "main": "optimizer.js",
   "scripts": {
-    "optimize": "node optimizer.js",
+    "optimize": "rm -r -f _output/* && node optimizer.js",
     "prepare": "mkdir _input && mkdir _output"
   },
   "author": "",
